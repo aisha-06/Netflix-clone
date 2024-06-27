@@ -1,0 +1,23 @@
+body
+{
+  overflow-x: hidden;
+  background-color: black;
+  font-family: sans-serif;
+  /* font-size: 32px; */
+  
+}
+.video-div
+{
+  padding: 20px;
+  margin-left: 30px;
+  margin-bottom: 50px;
+}
+.container2
+{
+  background-color: black;
+  border: 15px solid darkgray;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  
+}
