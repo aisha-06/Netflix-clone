@@ -1,23 +1,25 @@
 body
 {
-  overflow-x: hidden;
-  background-color: black;
   font-family: sans-serif;
-  /* font-size: 32px; */
-  
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
 }
-.video-div
+
+
+.header-text
 {
-  padding: 20px;
-  margin-left: 30px;
-  margin-bottom: 50px;
+  margin-top: 20%;
+  margin-left: 23%;
 }
-.container2
+.navbar
 {
-  background-color: black;
-  border: 15px solid darkgray;
-  border-left: none;
-  border-right: none;
-  border-bottom: none;
-  
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(img/bg1.jpg);
+  background-size: cover;
+  background-position: 50%;
+  height: 90vh;
+  position:absolute;
+}
+.header-nav
+{
+  display: flex;
+  margin-bottom: 35%;
 }
