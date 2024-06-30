@@ -1,7 +1,8 @@
 body
 {
+  overflow-x: hidden;
   font-family: sans-serif;
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+  /* background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%); */
 }
 
 
@@ -9,17 +10,83 @@ body
 {
   margin-top: 20%;
   margin-left: 23%;
+  position:absolute;
 }
 .navbar
 {
   background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(img/bg1.jpg);
   background-size: cover;
   background-position: 50%;
-  height: 90vh;
+  height: 100vh;
   position:absolute;
 }
 .header-nav
 {
   display: flex;
-  margin-bottom: 35%;
+  margin-bottom: 43%;
+}
+
+.card-1,.card-2,.card-3 ,.card-4
+{
+  border: 10px solid darkgray;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  
+}
+.download-video {
+  width: 2rem;
+  height: 2rem;
+  outline: 2px solid rgb(0, 0, 0);
+  outline-offset: -2px;
+  /* display: block; */
+  background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif) center center no-repeat;
+ margin-left: 280px;
+ margin-bottom: 100px;
+ 
+
+
+}
+.btn-mobile
+{
+  margin-left: 70px;
+  width: 350px;
+  height: 120px;
+  border-radius: 20px;
+  margin-top: 0px;
+}
+.default-ltr-cache-1626rqb {
+  /* z-index: -1; */
+  overflow: hidden;
+  /* width: 50%;
+  height: 50%; */
+  /* max-width: 63%;
+  max-height: 47%; */
+  /* position: absolute; */
+  /* top: 40%; */
+  left: 70%;
+ width: 550px;
+ height: 510px;
+ font-size: xx-large;
+}
+.container4
+{
+  border: 10px solid darkgray;
+  border-left: none;
+  border-right: none;
+  /* border-bottom: none; */
+}
+.btn1-div-quest
+{
+  justify-content: space-between;
+  /* margin-left: 10px; */
+}
+.btn-ques
+{
+  width: 1190px;
+  border-radius: 0px;
+}
+.card-body-ques
+{
+  border-radius: 0px;
 }
