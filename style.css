@@ -90,3 +90,11 @@ body
 {
   border-radius: 0px;
 }
+.call-ul,.ul-1-footer,.ul-2-footer,.ul-3-footer,.ul-4-footer
+{
+  list-style: none;
+}
+.ul-1-footer,.ul-2-footer,.ul-3-footer,.ul-4-footer
+{
+  justify-content: space-between;
+}
