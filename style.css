@@ -11,11 +11,13 @@ body
   margin-top: 20%;
   margin-left: 16%;
   position:absolute;
-  z-index: 0;
-  
 }
 
-
+.header2
+{
+ margin-right: 150px;
+ display: flex;
+}
 .navbar
 {
   background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(img/bg1.jpg);
@@ -28,8 +30,10 @@ body
 }
 .header-nav
 {
-  display: flex;
+  /* display: flex; */
   margin-bottom: 43%;
+  display: flex;
+  justify-content: space-between;
 }
 
 
@@ -93,7 +97,7 @@ body
   margin-left: 100px;
   position: absolute;
   bottom: 20vh;
-  background-color: black;
+  
   
   width: 300px;
   height: 100px;
@@ -105,6 +109,11 @@ body
     background-position-x: right;
     
   
+}
+
+.card2-text1,.card2-text2
+{
+ margin-left: 30px;
 }
 
 .default-ltr-cache-1626rqb {
@@ -148,8 +157,8 @@ body
   list-style: none;
 }
 /* query for ipad */
-@media  (max-width:1024px)
- {
+@media only screen and (min-device-width: 768px) and (max-device-width:1024px)
+{
   .header-nav
   {
     margin-bottom: 120%;
@@ -176,7 +185,7 @@ body
   }
   .tv1-img
   {
-    left: 45vh;
+    left: 43vh;
     width: 430px;
     top: 10vh;
   }
@@ -194,15 +203,23 @@ body
   }
   .btn-mobile
   {
+    
     width: 250px;
+    bottom: 17vh;
     
   }
   .img-mobile
   {
     margin-left: 50px;
+    margin-top: 40px !important;
+    
+
+    
   }
+  
   .text-download
   {
+    
     margin-left: 30px;
   }
   .card2-text1,.card2-text2
@@ -219,6 +236,7 @@ body
   .video-2  
   {
     margin-right: 20px;
+    margin-top: 6%;
     
   }
   .video2
@@ -248,7 +266,10 @@ body
 
 @media (max-width:768px)
  {
-
+  .header-text
+  {
+    top: 10%;
+  }
   .header-txt-h1
   {
     font-size: 35px !important;
@@ -260,20 +281,32 @@ body
     font-size: 15px;
     
   }
+ .header2
+ {
+  
  
+  
+ }
   .header-nav
   {
     margin-bottom: 700px;
+    
+    
+    
+    
   }
   .navbar
   {
-    height: 90vh;
+    height: 80vh;
+    width: 430px;
    
     
   }
   .netflix-logo
   {
-    width: 100%;
+    width: 15%;
+    height: 10%;
+    
   }
   
   
@@ -295,9 +328,17 @@ body
   
   .btn-mobile
   {
-    width: 250px;
+    width: 260px;
     line-height: 0;
+    bottom: 53vh !important;
+    background-color: black;
    
+  }
+  .img-mobile
+  {
+    height: 400px;
+    width: 500px !important;
+    margin-left: 20px;
   }
   .card-1
   {
@@ -307,6 +348,7 @@ body
  .text-download
  {
   margin-left: 30px;
+  
   
  }
   
@@ -342,27 +384,25 @@ body
   .card2-text1
   {
     font-size: 30px !important;
-    margin-left: 10px;
+   
   }
+  .card2-text1,
   .card2-text2
   {
-    margin-left: 10px;
+    margin-left: 20px;
   }
   .video2 /*video div*/
   {
     
     margin-left:100px ;
-    
-    
+    /* bottom: 20vh; */
    
   }
   .video-2 /*video actual*/
   {
     width: 220px;
     /* margin-bottom:   55%; */
-    top: 20vh;
-    
-   
+     top: 20vh;
     
   }
   .tv2-img
@@ -373,10 +413,11 @@ body
     
    
   }
-  .header-text
+  /* .watch-txt,.watch-txt2
   {
-    top: 10%;
-  }
+     font-size: 20px;
+  } */
+  
   .card4-text1
   {
     font-size: 40px !important;
