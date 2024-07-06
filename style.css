@@ -141,6 +141,103 @@ body
 {
   list-style: none;
 }
+/* query for ipad */
+@media  (max-width:1024px)
+ {
+  .header-nav
+  {
+    margin-bottom: 120%;
+  }
+  .header-txt2
+  {
+    margin-right: 170px;
+  }
+  .card-1
+  {
+    margin-top: 10%;
+    height: 630px !important;
+  }
+  .video-1
+  {
+    margin-top: 25%;
+    width: 310px;
+    
+    
+  }
+  .video1
+  {
+    padding-right: 90px;
+  }
+  .tv1-img
+  {
+    left: 45vh;
+    width: 430px;
+    top: 10vh;
+  }
+  .card-1-body
+  {
+    font-size: 40px !important;
+  }
+  .card1-text1
+  {
+    font-size: 60px;
+  }
+  .card1-text2
+  {
+   font-size: 30px;
+  }
+  .btn-mobile
+  {
+    width: 250px;
+    
+  }
+  .img-mobile
+  {
+    margin-left: 50px;
+  }
+  .text-download
+  {
+    margin-left: 30px;
+  }
+  .card2-text1,.card2-text2
+  {
+    margin-left: 30px;
+  }
+  .tv2-img
+  {
+    left: 42vh;
+    top: 5vh;
+    width: 450px !important;
+    
+  }
+  .video-2  
+  {
+    margin-right: 20px;
+    
+  }
+  .video2
+  {
+    margin-right: 20px;
+    left: 20vh;
+
+  }
+  .watch-txt
+  {
+   font-size: 50px ;
+  }
+  
+  .btn-ques
+  {
+    width: 700px ; 
+    
+  }
+  .card-body-ques
+  {
+    width: 700px ;
+    left: 13%;
+   
+  }
+}
 
 
 @media (max-width:768px)
@@ -198,7 +295,7 @@ body
   }
   .card-1
   {
-   height: 700px !important;
+   height: 900px !important;
    
   }
  .text-download
@@ -209,23 +306,26 @@ body
   
   .video1 /*video div*/
   {
-    margin-top: 10px;
+     bottom: 20%;
     margin-left: 50px;
+   
   }
   .video-1 /*video actual*/
   {
   width: 250px; 
+  margin-bottom: 20px;
   }
   .tv1-img
   {
+    top: 70vh;
     left: 5vh;
     width: 350px;
   }
-  .card-1-body
+  .card1-text1
   {
-    font-size: 25px;
-    flex-wrap: wrap;
+
   }
+  
   .card-2{
     height: 900px !important;
   }
@@ -242,12 +342,15 @@ body
   {
     
     margin-left:100px ;
-    /* margin-bottom:   40%; */
+    
+    
    
   }
   .video-2 /*video actual*/
   {
-    width: 200px;
+    width: 220px;
+    /* margin-bottom:   55%; */
+    top: 20vh;
     
    
     
@@ -255,9 +358,9 @@ body
   .tv2-img
   {
     width: 400px !important;
-    left: 2vh;
+    left: 10px;
     margin-top: 300px;
-    position: absolute;
+    
    
   }
   .header-text
