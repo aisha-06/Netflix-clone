@@ -109,7 +109,7 @@ body
   margin-left: 100px;
   position: absolute;
   bottom: 20vh;
-  
+  background-color: black;
   
   width: 300px;
   height: 100px;
@@ -244,6 +244,7 @@ body
     
     width: 250px;
     bottom: 17vh;
+    background-color: black;
     
   }
   .img-mobile
