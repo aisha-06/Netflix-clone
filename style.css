@@ -12,11 +12,19 @@ body
   margin-left: 16%;
   position:absolute;
 }
+.logo-div
+{
+  margin-top: 14px;
+}
 
 .header2
 {
  margin-right: 150px;
  display: flex;
+}
+.netflix-logo
+{
+  margin-top: 30px;
 }
 .navbar
 {
@@ -34,8 +42,12 @@ body
   margin-bottom: 43%;
   display: flex;
   justify-content: space-between;
+  
 }
-
+.input-footer
+{
+  margin-left: 190px;
+}
 
 .card-1,.card-2,.card-3 ,.card-4
 {
@@ -152,10 +164,36 @@ body
   border-radius: 0px;
   left: 13.5%;
 }
-.call-ul,.ul-1-footer,.ul-2-footer,.ul-3-footer,.ul-4-footer
+
+.parent-ul-div
 {
-  list-style: none;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
 }
+.ul-div1-2,.ul-div3-4
+{
+  display: grid;
+  grid-template-columns: auto auto ;
+}
+.btn-lang-footer
+{
+  width: 90px;
+  font-size: 10px;
+  
+}
+.call-ul
+{
+  display: flex;
+  /* grid-template-columns: auto auto; */
+  list-style: none;
+  
+
+}
+.call-li
+{
+  margin-right: 1100px;
+}
+
 /* query for ipad */
 @media only screen and (min-device-width: 768px) and (max-device-width:1024px)
 {
@@ -283,6 +321,7 @@ body
   }
  .header2
  {
+  margin-left: 40px;
   
  
   
@@ -290,23 +329,41 @@ body
   .header-nav
   {
     margin-bottom: 700px;
-    
-    
+   
+    /* margin-top: 30px;
+     */
     
     
   }
+  .btn-lang
+  {
+    width: 90px;
+    font-size: 10px;
+    margin-left: 5px;
+    
+  }
+  .btn-sign
+  {
+    width: 70px !important;
+    font-size: 10px;
+  }
   .navbar
   {
-    height: 80vh;
+    height: 83vh;
     width: 430px;
-   
+    
     
   }
   .netflix-logo
   {
-    width: 15%;
-    height: 10%;
+    width: 100px;
+    height: 60px;
     
+    
+  }
+  .input-header
+  {
+    width: 320px;
   }
   
   
@@ -321,7 +378,9 @@ body
   {
     
     width: 270px;
-    margin-top: 10px; 
+    margin-top: 10px;
+   
+
 
   }
 
@@ -395,15 +454,12 @@ body
   {
     
     margin-left:100px ;
-    /* bottom: 20vh; */
+    
    
   }
   .video-2 /*video actual*/
   {
     width: 220px;
-    /* margin-bottom:   55%; */
-     top: 20vh;
-    
   }
   .tv2-img
   {
@@ -413,10 +469,7 @@ body
     
    
   }
-  /* .watch-txt,.watch-txt2
-  {
-     font-size: 20px;
-  } */
+  
   
   .card4-text1
   {
@@ -453,9 +506,24 @@ body
  
    .parent-ul-div
    {
-    flex-direction: column;
+    /* flex-direction: column; */
+    grid-template-columns: auto auto ;
     
    }
+   
+    .ul-div1-2,.ul-div3-4
+{
+  /* display: grid; */
+  grid-template-columns:  auto ;
+}
+.btn-lang-footer
+{
+  width: 90px;
+  font-size: 10px;
+}
+
+
+
 }
 
 
