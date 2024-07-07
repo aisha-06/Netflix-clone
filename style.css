@@ -452,7 +452,7 @@ body
   }
   .video2 /*video div*/
   {
-    
+    margin-bottom: 24%;
     margin-left:100px ;
     
    
@@ -465,9 +465,19 @@ body
   {
     width: 400px !important;
     left: 10px;
-    margin-top: 300px;
-    
-   
+    margin-top: 480px;
+  }
+  .card-3
+  {
+    height: 900px;
+  }
+  .watch-txt
+  {
+    font-size: 40px;
+  }
+  .watch-txt2
+  {
+    font-size: 34px;
   }
   
   
