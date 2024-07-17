@@ -34,11 +34,9 @@ body
   background-repeat: no-repeat;
   height: 100vh;
   position:absolute;
-  /* position: relative; */
 }
 .header-nav
 {
-  /* display: flex; */
   margin-bottom: 43%;
   display: flex;
   justify-content: space-between;
@@ -68,8 +66,6 @@ body
  margin-left: 280px;
  margin-bottom: 100px;
  
-
-
 }
 .video1
 {
@@ -119,8 +115,6 @@ body
    background-size: 3rem;
     background-size: 3rem;
     background-position-x: right;
-    
-  
 }
 
 .card2-text1,.card2-text2
@@ -129,14 +123,8 @@ body
 }
 
 .default-ltr-cache-1626rqb {
-  /* z-index: -1; */
   overflow: hidden;
-  /* width: 50%;
-  height: 50%; */
-  /* max-width: 63%;
-  max-height: 47%; */
-  /* position: absolute; */
-  /* top: 40%; */
+  height: 50%; 
   left: 70%;
  width: 550px;
  height: 510px;
@@ -147,12 +135,10 @@ body
   border: 10px solid darkgray;
   border-left: none;
   border-right: none;
-  /* border-bottom: none; */
 }
 .btn1-div-quest
 {
   justify-content: space-between;
-  /* margin-left: 10px; */
 }
 .btn-ques
 {
@@ -184,7 +170,6 @@ body
 .call-ul
 {
   display: flex;
-  /* grid-template-columns: auto auto; */
   list-style: none;
   
 
@@ -194,7 +179,6 @@ body
   margin-right: 1100px;
 }
 
-/* query for ipad */
 @media only screen and (min-device-width: 768px) and (max-device-width:1024px)
 {
   .header-nav
@@ -330,10 +314,6 @@ body
   .header-nav
   {
     margin-bottom: 700px;
-   
-    /* margin-top: 30px;
-     */
-    
     
   }
   .btn-lang
@@ -380,8 +360,6 @@ body
     
     width: 270px;
     margin-top: 10px;
-   
-
 
   }
 
@@ -517,14 +495,12 @@ body
  
    .parent-ul-div
    {
-    /* flex-direction: column; */
     grid-template-columns: auto auto ;
     
    }
    
     .ul-div1-2,.ul-div3-4
 {
-  /* display: grid; */
   grid-template-columns:  auto ;
 }
 .btn-lang-footer
