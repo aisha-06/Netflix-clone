@@ -26,9 +26,9 @@ body
 {
   margin-top: 30px;
 }
-.navbar
+.navbar1
 {
-  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(img/bg1.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("img/bg1.jpg");
   background-size: cover;
   background-position: 50%;
   background-repeat: no-repeat;
@@ -348,7 +348,7 @@ body
     width: 70px !important;
     font-size: 10px;
   }
-  .navbar
+  .navbar1
   {
     height: 83vh;
     width: 430px;
